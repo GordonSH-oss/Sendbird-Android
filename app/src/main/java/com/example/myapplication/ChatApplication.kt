@@ -20,7 +20,7 @@ class ChatApplication : Application() {
     companion object {
         // TODO: 替换为你自己的 Sendbird Application ID
         // 在 https://dashboard.sendbird.com/ 创建应用后获取
-        private const val APP_ID = "YOUR_SENDBIRD_APP_ID"
+        private const val APP_ID = "76AC6A13-4C1D-4820-A9EE-5DFC77719C26"
         
         // 单例实例,方便全局访问
         lateinit var instance: ChatApplication
