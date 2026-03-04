@@ -1,0 +1,61 @@
+# Gradle files
+.gradle/
+build/
+**/build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio files
+.idea/
+*.iml
+.DS_Store
+*.swp
+*~
+
+# NDK
+obj/
+
+# Android generated files
+bin/
+gen/
+out/
+
+# Signing files
+*.jks
+*.keystore
+
+# External native build
+.externalNativeBuild
+.cxx/
+
+# Captures folder
+captures/
+
+# Log files
+*.log
+
+# IntelliJ
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/navEditor.xml
+
+# Keystore files
+# Uncomment the following lines if you do not want to check your keystore files in.
+#*.jks
+#*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+# google-services.json
+
+# Android Profiling
+*.hprof
