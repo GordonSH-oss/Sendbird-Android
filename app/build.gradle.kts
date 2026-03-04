@@ -50,6 +50,12 @@ dependencies {
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
     
+    // ViewModel Compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+    
+    // Material Icons Extended (for Icons.AutoMirrored.Filled.*)
+    implementation("androidx.compose.material:material-icons-extended:1.6.1")
+    
     // Sendbird Chat SDK
     implementation("com.sendbird.sdk:sendbird-chat:4.33.1")
     

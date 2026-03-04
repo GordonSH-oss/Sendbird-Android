@@ -184,7 +184,6 @@ class ChatRepository {
         suspendCancellableCoroutine { continuation ->
             val params = com.sendbird.android.params.MessageListParams().apply {
                 previousResultSize = limit
-                isInclusive = true
             }
             
             channel.getMessagesByTimestamp(Long.MAX_VALUE, params) { messages, e ->

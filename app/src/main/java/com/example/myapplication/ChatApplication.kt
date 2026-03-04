@@ -18,6 +18,8 @@ import com.sendbird.android.params.InitParams
 class ChatApplication : Application() {
     
     companion object {
+        private const val TAG = "ChatApplication"
+        
         // TODO: 替换为你自己的 Sendbird Application ID
         // 在 https://dashboard.sendbird.com/ 创建应用后获取
         private const val APP_ID = "76AC6A13-4C1D-4820-A9EE-5DFC77719C26"
@@ -70,9 +72,5 @@ class ChatApplication : Application() {
                 Log.i(TAG, "Sendbird 初始化成功")
             }
         })
-    }
-    
-    companion object {
-        private const val TAG = "ChatApplication"
     }
 }
